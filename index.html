@@ -7,6 +7,7 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
         <link rel="stylesheet" href="css/icon-font.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/main.css">
         <link rel="shortcut icon" type="image/png" href="images/logo.png">
     
@@ -14,21 +15,65 @@
     </head>
     
     <body id="content">     <!--content id for jquery-->
-<!--         
-        <header class="navbar">
-            navbar
-        </header> -->
         
-        <main>
-            <section class="header">
-                
-                <div class="header__text-box">
-                    <h1 class="heading-primary">
-                        <span class="heading-primary--main">DA-MUN</span>
-                        <span class="heading-primary--sub">MUN @ DAIICT</span>
-                    </h1>
+        <div class="navigation">
+            <nav class="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a class="navigation__link" href="letterSEC.html">Letter From Sec-Gen</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="letterEB.html">Letter from EB</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="recognition.html">Letter of Recognition</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="aboutOC.html">About Committee</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="https://docs.google.com/forms/d/e/1FAIpQLSePB5WTH5BKy0c8jxyl4h-_ci6hmRzsIWa-tVpys3oK3Z10ig/viewform" target="blank">Registration</a></li>
+                    <li class="navigation__item"><a class="navigation__link" href="team.html">Meet the Team</a></li>
+                </ul>
+            </nav>
+        </div>
+        
+        <header class="header">
+            <div class="header_image"></div>
+            <div class="header__text-box">
+                <div class="header_logo-box">
+                    <img src="./images/logo4.png" alt="DAMUNC LOGO" class="header__logo">
+                </div>
+                <h1 class="heading-primary" style="margin: 5rem;margin-top: 1rem;">
+                    <span class="heading-primary--main">DAMUNC</span>
+                    <span class="heading-primary--sub u-margin-bottom-medium">DAIICT, Gandhinagar</span>
+                    <span class="heading-secondary" style="letter-spacing: 1.2rem;color: #fff">5th Oct - 6th Oct</span>
+                </h1>
 
-                    <a href="#" class="btn btn--white btn--animated">Register Now!</a>
+                <a href="https://docs.google.com/forms/d/e/1FAIpQLSePB5WTH5BKy0c8jxyl4h-_ci6hmRzsIWa-tVpys3oK3Z10ig/viewform" target="blank" class="btn btn--white btn--animated">Register Now!</a>
+            </div>
+            
+        </header>
+
+        <main>
+            <section class="section-about" style="background-color: #fff">
+                
+                <div class="row">
+                    
+                    <!-- <div class="col-1-of-2"> -->
+                        <div class="u-margin-bottom-medium section-about--p1">
+                            <h2 class="heading-secondary u-margin-bottom-medium">
+                                About DAIICT
+                            </h2>
+                            <p class="paragraph">
+                                
+                                <em>"Technology shapes the society and society shapes technology" - Robert White</em><br><br>
+
+                                Dhirubhai Ambani Institute of Information and Communication Technology (DA-IICT), Gandhinagar represents Wave-4 of educational innovation in Gujarat. It is the only advanced research and teaching Institute named after the Late Dhirubhai Ambani, founder of Reliance Group.
+                                <br><br>
+                                DA-IICT began with an intake of 300 undergraduate students for its Bachelor of Technology (B.Tech.) program in Information and Communication Technology (ICT). Since then, it has expanded to include postgraduate courses such as Master of Technology (M. Tech.) , Master of Science (M.Sc) in Information Technology, Master in Design (M. Des.), and a Doctorate of Philosophy(Ph. D) a five-year Doctorate program.
+                                <br><br>
+                                Students at DAIICT get exposed to a world of scientific research that one does not get to experience until their Graduate studies, all done through a combination of unique courses and project-based learning. The ICT embodies the convergence of Computer and Communication systems and has obtained wide acceptance as a distinct discipline. It manages to find a trade-off between the breadth demanded by comprehension at the systems level and the depth desired by scientific understanding of the fundamentals.
+                                <br><br>
+                                That being said a student not only learns the technological aspect of the worldly education but also the humanitarian and social perspective which prepares them for their upcoming responsibilities as a responsible citizen. This also gives them the insight on subjects that one might not learn in conventional engineering colleges so that they know what they are getting into when they choose various fields to pursue for the after graduation studies.
+
+                            </p>
+                        </div>
+                    <!-- </div> -->
+                    <!-- <div class="col-1-of-2">
+                        <img src="./images/cover1.jpg" alt="cover1" class="about-image">
+                    </div> -->
                 </div>
                 
             </section>
@@ -37,33 +82,37 @@
                 
                 <div class="row">
                     
-                    <div class="col-1-of-2">
-                        <div class="u-center-text u-margin-bottom-medium section-about--p1">
-                            <h2 class="heading-secondary">
-                                About DAIICT
+                    <!-- <div class="col-1-of-2">
+                        <img src="./images/cover1.jpg" alt="cover1" class="about-image">
+                    </div> -->
+                    <!-- <div class="col-1-of-2"> -->
+                        <div class="u-margin-bottom-medium section-about--p2">
+                            <h2 class="heading-secondary u-margin-bottom-medium">
+                                About DAMUNC
                             </h2>
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque adipisci a veniam dolorem aspernatur quod tempora reprehenderit maiores doloremque optio, eum quae odit assumenda eligendi libero iusto, sed voluptas nulla!
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque adipisci a veniam dolorem aspernatur quod tempora reprehenderit maiores doloremque optio, eum quae odit assumenda eligendi libero iusto, sed voluptas nulla!
+                            <p class="paragraph" style="text-align: left">
+                                
+                                <b>How it all began?</b>
+                                <br><br>
+                                For the past 7 years, DAIICT has held Intra MUNs and over the years, there is a significant growth in the number of people who want to be a part of the world of MUN-ing and learn. The want to culminate the thoughts of everyone that can do so had driven us to bring this conference to life. Why restrict a committee when a plethora of individuals with various educational backgrounds can contribute to a better judgment? 
+                                <br><br>
+                                <b>Why should you choose DAMUNC?</b>
+                                <br><br>
+                                <em>"Sustainable development is the peace policy of the future."</em>
+                                <br><br>
+                                This belief has pushed us to work on hosting the first edition of DAMUNC. DAMUNC is an intercollegiate conference, a two-day simulation of the United Nations Committee that aims to answer the pertinent questions that have been discussed all the time but have not provided justifiable answers. The students of today are citizens of tomorrow. They will fulfill multiple roles as they grow up and the most important would be being responsible citizens of their countries and to bring forth a positive change in the world, one step at a time. This conference aims to bring out their innate passion and charisma as they step into their roles as UN representative and members of international bodies under the UN and understand various perspectives, learn and grow and hopefully find a solution to the situation and grow closer to the universal peace that the world aims.
+
                             </p>
                         </div>
-                    </div>
-                    <div class="col-1-of-2">
-                        <div class="u-center-text u-margin-bottom-medium section-about--p2">
-                            <h2 class="heading-secondary">
-                                About DAMUN
-                            </h2>
-                            <p class="paragraph">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab totam vitae possimus animi suscipit dolore itaque aut et cupiditate explicabo? Provident commodi autem possimus inventore? Aliquam amet totam a harum!
-                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque adipisci a veniam dolorem aspernatur quod tempora reprehenderit maiores doloremque optio, eum quae odit assumenda eligendi libero iusto, sed voluptas nulla!
-                            </p>
-                        </div>
-                    </div>
+                    </!-->
                 </div>
                 
             </section>
 
+
             <section class="section-features">
+                <!-- <div class="features_bgimg"></div>
+
                 <div class="row">
                     <div class="col-1-of-4">
                         <div class="feature-box">
@@ -104,7 +153,7 @@
                             </p>
                         </div>
                     </div>
-                </div>
+                </div> -->
 
             </section>
 
@@ -118,47 +167,64 @@
                 <div class="composition">
                     
                     <div class="row">
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images/test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images/test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images/test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images/test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/1.jpg" data-fancybox="images"><img src="images/1.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/2.jpg" data-fancybox="images"><img src="images/2.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/3.jpg" data-fancybox="images"><img src="images/3.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/4.jpg" data-fancybox="images"><img src="images/4.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
                     </div>
                     
                     <div class="row">
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images//test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images//test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images//test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
-                        <div class="col-1-of-4"><a href="images/test.jpeg" data-fancybox="images"><img src="images//test.jpeg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/5.jpg" data-fancybox="images"><img src="images/5.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/6.jpg" data-fancybox="images"><img src="images/6.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/7.jpg" data-fancybox="images"><img src="images/7.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
+                        <div class="col-1-of-4"><a href="images/8.jpg" data-fancybox="images"><img src="images/8.jpg" alt="PHOTO GALLERY" class="composition__photo"></a></div>
                     </div>
 
                 </div>
             </section>
             
             <footer class="footer">
-                <div class="footer__logo-box">
-                    <picture class="footer__logo">
-                        <img src="images/logo2.png" alt="LOGO FULL">
-                    </picture>
-                </div>
-
+                
                 <div class="row">
-                    <div class="col-1-of-2">
-                        <div class="footer__navigation">
-                            <ul class="footer__list">
-                                <li class="footer__item"><a href="#" class="footer__link">Company</a></li>
-                                <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
-                                <li class="footer__item"><a href="#" class="footer__link">Careers</a></li>
-                                <li class="footer__item"><a href="#" class="footer__link">Privacy policy</a></li>
-                                <li class="footer__item"><a href="#" class="footer__link">Terms</a></li>
+                    <div class="col-1-of-3">
+
+                        <div class="footer-social__icon">
+                            <h2 class="heading-secondary u-margin-bottom-small" style="color:#fff;margin-left:2.2rem;margin-top: 7.5rem;">Follow Us </h2>
+                            <ul>
+                                <li><a href="https://www.facebook.com/daiictmunc" target="blank" class=""><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/daiictmunc/" target="blank" class=""><i class="fa fa-instagram"></i></a></li>
+                                <li><a href="#" class=""><i class="fa fa-twitter"></i></a></li>
                             </ul>
                         </div>
                     </div>
-                    <div class="col-1-of-2">
-                        <p class="footer__copyright">
-                            All copyrights &copy; reserved to DA-IICT
-                        </p>
+
+                    <div class="col-1-of-3">
+                        <div class="header_logo-box">
+                            <img src="./images/logo4.png" alt="DAMUNC LOGO" class="header__logo" style="display: block; margin: 0 auto;">
+                        </div>
                     </div>
+                    <div class="col-1-of-3">
+                        <div style="margin:0;padding:0;margin-left: 12rem;">
+                            <h2 class="heading-secondary u-margin-bottom-small" style="color:#fff;margin-top: 6rem;">Contact Us </h2>
+                            <p class="paragraph" style="font-size: 2rem">
+                                <b>Email:</b> daiictmunc@gmail.com
+                                <br>OR<br>
+
+                                <b>Call Us At:</b><br>
+                                Vyom: (+91)6358077665<br>
+                                Abhignya: (+91)7433009466    
+                            </p>
+                        </div>
+                            
+                    </div>
+            
                 </div>
+                <div class="row">
+                        <p class="footer__copyright">
+                                All copyrights &copy; reserved to DA-IICT
+                            </p>
+                </div>
+                                
             </footer>
 
         </main>
