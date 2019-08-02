@@ -17,18 +17,23 @@
     
     <body id="content">     <!--content id for jquery-->
         
-        <div class="navigation">
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a class="navigation__link" href="letterSEC.html">Letter From Sec-Gen</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="letterEB.html">Letter from EB</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="recognition.html">Letter of Recognition</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="aboutOC.html">About Committee</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="https://docs.google.com/forms/d/e/1FAIpQLSePB5WTH5BKy0c8jxyl4h-_ci6hmRzsIWa-tVpys3oK3Z10ig/viewform" target="blank">Registration</a></li>
-                    <li class="navigation__item"><a class="navigation__link" href="team.html">Meet the Team</a></li>
-                </ul>
-            </nav>
-        </div>
+        <div class="nav">
+                <nav>
+                        <div class="toggle">
+                            <i class="fa fa-bars menu" aria-hidden="true"></i>
+                        </div>
+            
+                        <ul>
+                                <li><a href="team.html">Meet the Team</a></li>
+                                <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSePB5WTH5BKy0c8jxyl4h-_ci6hmRzsIWa-tVpys3oK3Z10ig/viewform" target="blank">Registration</a></li>
+                                <li><a href="aboutOC.html">About Committee</a></li>
+                                <li><a href="recognition.html">Letter of Recognition</a></li>
+                                <li><a href="letterEB.html">Letter from EB</a></li>
+                                <li><a href="letterSEC.html">Letter From Sec-Gen</a></li>
+                            
+                        </ul>
+                    </nav>     
+         </div>
 
         <main>
 
@@ -43,7 +48,7 @@
                         </div>
                     
                         <div class="col-1-of-2">
-                            <h1 class="heading-primary" >
+                            <h1 class="heading-primary" style="text-align: center;">
                                 <span class="heading-primary--main">DAMUNC</span>
                                 <span class="heading-primary--sub">DAIICT, Gandhinagar</span>
                             </h1>
@@ -60,7 +65,7 @@
                     
                     <!-- <div class="col-1-of-2"> -->
                         <div class="u-margin-bottom-medium section-about--p1">
-                            <h2 class="heading-secondary u-margin-bottom-medium">
+                            <h2 class="heading-secondary u-margin-bottom-big">
                                 About Committee
                             </h2>
                             
@@ -112,11 +117,11 @@
                     <div class="col-1-of-3">
 
                         <div class="footer-social__icon">
-                            <h2 class="heading-secondary u-margin-bottom-small" style="color:#fff;margin-left:2.2rem;margin-top: 7.5rem;">Follow Us </h2>
-                            <ul>
-                                <li><a href="https://www.facebook.com/daiictmunc" target="blank" class=""><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://www.instagram.com/daiictmunc/" target="blank" class=""><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#" class=""><i class="fa fa-twitter"></i></a></li>
+                            <h2 class="heading-secondary u-margin-bottom-medium footer-text-center" style="color:#fff;margin-top: 7.5rem; font-size: 3rem; ">Follow Us </h2>
+                            <ul style="display: block;">
+                                <li style="padding: 0;"><a href="https://www.facebook.com/daiictmunc" target="blank" class="" style="font-size: 2rem;"><i class="fa fa-facebook"></i></a></li>
+                                <li style="padding: 0;"><a href="https://www.instagram.com/daiictmunc/" target="blank" class="" style="font-size: 2rem;"><i class="fa fa-instagram"></i></a></li>
+                                <li style="padding: 0;"><a href="#" class=""><i class="fa fa-twitter" style="font-size: 2rem;"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -127,9 +132,9 @@
                         </div>
                     </div>
                     <div class="col-1-of-3">
-                        <div style="margin:0;padding:0;margin-left: 12rem;">
-                            <h2 class="heading-secondary u-margin-bottom-small" style="color:#fff;margin-top: 6rem;">Contact Us </h2>
-                            <p class="paragraph" style="font-size: 2rem">
+                        <div style="" class="footer-contact">
+                            <h2 class="heading-secondary u-margin-bottom-small " style="color:#fff;margin-top: 6rem; font-size: 3rem;">Contact Us </h2>
+                            <p class="paragraph footer-contact-text" >
                                 <b>Email:</b> daiictmunc@gmail.com
                                 <br>OR<br>
 
@@ -150,3 +155,19 @@
                                 
             </footer>
         </main>
+
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+            })
+        })
+
+        
+    </script>
+
+    </html>
